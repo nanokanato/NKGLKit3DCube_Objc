@@ -153,7 +153,7 @@ GLfloat gCubeVertexData[216] = {
     effect = [[GLKBaseEffect alloc] init];
     //証明をONにする
     effect.light0.enabled = GL_TRUE;
-    //証明の位置を設定
+    //証明の色を設定
     effect.light0.diffuseColor = GLKVector4Make(1.0f, 0.4f, 0.4f, 1.0f);
 }
 
